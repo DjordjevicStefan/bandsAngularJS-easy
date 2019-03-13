@@ -5,7 +5,7 @@
 //   .service("db", function ($http) {
 //       this.getData = function () {
 //           return $http({
-//               url: 'https://raw.githubusercontent.com/Danilovesovic/bands/master/bands.json',
+//               url: 'https://raw.githubusercontent.com/DjordjevicStefan/bandsAngularJSEasy/master/band.json',
 //               method: 'get' });
 //       }
 //   });
@@ -17,7 +17,7 @@
           
         getData : function () {
             return $http({
-                url: 'https://raw.githubusercontent.com/Danilovesovic/bands/master/bands.json',
+                url: 'https://raw.githubusercontent.com/DjordjevicStefan/bandsAngularJSEasy/master/band.json',
                 method: 'get' });
         }
 
